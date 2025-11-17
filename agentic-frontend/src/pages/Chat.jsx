@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useRef, useState } from "react";
 import { useOutletContext } from "react-router-dom";
+import {IoIosSend} from "react-icons/io";
 
 function Chat() {
   const { current, updateCurrent } = useOutletContext();
@@ -96,7 +97,9 @@ function Chat() {
                 </div>
                 <div className="flex items-center gap-3">
                   <button className="h-5 w-5 rounded-full bg-neutral-800" aria-label="attach" />
-                  <button onClick={sendMessage} disabled={isStreaming || !input.trim()} className="h-8 w-8 rounded-full bg-blue-600 disabled:opacity-50" aria-label="send" />
+                    <button onClick={sendMessage} disabled={isStreaming || !input.trim()} className="h-8 w-8 flex items-center justify-center rounded-full bg-blue-600 disabled:opacity-50" aria-label="send" >
+                        <IoIosSend />
+                    </button>
                 </div>
               </div>
             </div>

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413797df-171a-4ae1-9b74-a3f82f73d851" name="Changes" comment="" />
+    <list default="true" id="413797df-171a-4ae1-9b74-a3f82f73d851" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/src/pages/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/src/pages/Chat.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +84,7 @@
       <updated>1763286174893</updated>
       <workItem from="1763286176148" duration="2101000" />
       <workItem from="1763291023885" duration="2103000" />
-      <workItem from="1763361788843" duration="1532000" />
+      <workItem from="1763361788843" duration="1898000" />
     </task>
     <servers />
   </component>
