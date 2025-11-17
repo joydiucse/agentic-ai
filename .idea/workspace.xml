@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413797df-171a-4ae1-9b74-a3f82f73d851" name="Changes" comment="" />
+    <list default="true" id="413797df-171a-4ae1-9b74-a3f82f73d851" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/agentic-frontend/src/AppOld.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agentic-frontend/src/components/layouts/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agentic-frontend/src/components/layouts/sidebar/Sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agentic-frontend/src/pages/Chat.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agentic-frontend/src/routes/Routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/src/main.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +33,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="35YTnmH3oDUeTjhf5F12YrqTG5Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,15 +45,18 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "v2",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/webServer/agentic-ai-by-models/agentic-frontend/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,8 +65,14 @@
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webServer\agentic-ai-by-models\agentic-frontend\src" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -66,6 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1763286174893</updated>
       <workItem from="1763286176148" duration="2101000" />
+      <workItem from="1763291023885" duration="2103000" />
+      <workItem from="1763361788843" duration="1119000" />
     </task>
     <servers />
   </component>
