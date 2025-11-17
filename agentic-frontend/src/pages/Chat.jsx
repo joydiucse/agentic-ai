@@ -33,6 +33,7 @@ function Chat() {
     setIsStreaming(true);
     const url = new URL("http://localhost:5000/api/llama/stream");
     url.searchParams.set("prompt", prompt);
+    url.searchParams.set("sessionId", String(current.id));
     const es = new EventSource(url.toString());
     es.onmessage = (event) => {
       try {

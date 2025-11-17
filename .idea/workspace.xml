@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413797df-171a-4ae1-9b74-a3f82f73d851" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agentic-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agentic-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-backend/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agentic-frontend/src/pages/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/src/pages/Chat.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +38,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "v2",
+    "git-widget-placeholder": "sesion-manage",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "D:/webServer/agentic-ai-by-models/agentic-frontend/src",
     "node.js.detected.package.eslint": "true",
