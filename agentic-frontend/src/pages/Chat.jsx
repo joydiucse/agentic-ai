@@ -2,10 +2,12 @@ import React from "react";
 import { useEffect, useRef, useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import {IoIosSend} from "react-icons/io";
+import { getSiteConfig } from "../config/siteConfig.js";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 function Chat() {
+  const config = getSiteConfig();
   const { current, updateCurrent } = useOutletContext();
   const [input, setInput] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
@@ -89,7 +91,7 @@ function Chat() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={handleKeyDown}
-                placeholder="Message Joy-GPT"
+                placeholder={`Message ${config.siteName}`}
                 rows={2}
                 className="w-full resize-none rounded-xl bg-neutral-900 text-neutral-200 placeholder:text-neutral-500 focus:outline-none"
               />

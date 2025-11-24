@@ -1,12 +1,14 @@
 import React from "react";
+import { getSiteConfig } from "../../../config/siteConfig.js";
 
 function Sidebar({ conversations, currentId, onSelect, onNew }) {
+  const config = getSiteConfig();
   return (
     <aside className="w-64 shrink-0 bg-neutral-900 border-r border-neutral-800 text-neutral-200 flex flex-col">
       <div className="px-3 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="h-6 w-6 rounded-full bg-blue-600" />
-          <div className="font-semibold">Joy-GPT</div>
+          <div className="font-semibold">{config.siteName}</div>
         </div>
         <button className="h-8 w-8 rounded-md hover:bg-neutral-800" aria-label="collapse" />
       </div>
@@ -31,8 +33,8 @@ function Sidebar({ conversations, currentId, onSelect, onNew }) {
       </div>
       <div className="px-3 py-3 border-t border-neutral-800 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="h-7 w-7 rounded-full bg-neutral-700 grid place-items-center text-[10px]">JA</div>
-          <div className="text-sm">Joynal Abedin</div>
+          <div className="h-7 w-7 rounded-full bg-neutral-700 grid place-items-center text-[10px]">{config.brandInitials}</div>
+          <div className="text-sm">{config.siteDetails}</div>
         </div>
         <button className="h-6 w-6 rounded-md hover:bg-neutral-800" aria-label="more" />
       </div>
