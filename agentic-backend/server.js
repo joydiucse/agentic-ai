@@ -5,7 +5,7 @@ import ollama from "ollama";
 import dotenv from "dotenv";
 dotenv.config();
 const app = express();
-const port = process.env.PORT || 3100;
+const port = process.env.PORT || 5145;
 const sessions = new Map();
 
 // Middleware
