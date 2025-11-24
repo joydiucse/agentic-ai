@@ -1,7 +1,8 @@
 export const profiles = {
   joy: {
     key: "joy",
-    siteName: "Joy-GPT",
+    siteName: "GPT",
+    logo: "/logo.svg",
     siteDetails: "Personal AI assistant",
     brandInitials: "JA",
   },
