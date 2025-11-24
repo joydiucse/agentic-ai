@@ -1,8 +1,8 @@
 export const profiles = {
   joy: {
     key: "joy",
-    siteName: "Joy GPT",
-    siteCoName: "GPT",
+    siteName: "Joy AI",
+    siteCoName: "AI",
     logo: "/logo.svg",
     siteDetails: "Personal AI assistant",
     brandInitials: "JA",
@@ -10,6 +10,8 @@ export const profiles = {
   moshahed: {
     key: "moshahed",
     siteName: "Moshahed AI",
+    siteCoName: "AI",
+    logo: "/moshahed-logo.svg",
     siteDetails: "Research assistant",
     brandInitials: "MO",
   },

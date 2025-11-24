@@ -59,7 +59,7 @@ function Chat() {
       setIsStreaming(false);
       updateCurrent((c) => ({
         ...c,
-        messages: c.messages.map((m) => (m.id === assistantId ? { ...m, content: m.content || "Connection failed. Is the backend running on port 5000?" } : m)),
+        messages: c.messages.map((m) => (m.id === assistantId ? { ...m, content: m.content || "Connection failed! Please wait some moment and try again." } : m)),
       }));
       es.close();
     };
@@ -73,6 +73,16 @@ function Chat() {
   };
 
   if (!current) return null;
+
+  function TypingDots() {
+    return (
+      <div className="flex items-center gap-1">
+        <span className="typing-dot" />
+        <span className="typing-dot" />
+        <span className="typing-dot" />
+      </div>
+    );
+  }
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -113,7 +123,7 @@ function Chat() {
             {current.messages.map((m) => (
               <div key={m.id} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
                 <div className={`max-w-[75%] rounded-2xl px-4 py-2 text-sm whitespace-pre-wrap break-words shadow ${m.role === "user" ? "bg-blue-600 text-white" : "bg-neutral-800 text-neutral-200 border border-neutral-700"}`}>
-                  {m.content}
+                  {m.content ? m.content : (isStreaming && m.role === "assistant" ? <TypingDots /> : null)}
                 </div>
               </div>
             ))}

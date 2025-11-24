@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+.typing-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background-color: #9CA3AF;
+  opacity: 0.4;
+  animation: typingBlink 1s infinite ease-in-out;
+}
+
+@keyframes typingBlink {
+  0%, 80% { opacity: 0.3; }
+  40% { opacity: 1; }
+}
