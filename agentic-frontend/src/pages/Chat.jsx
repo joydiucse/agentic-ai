@@ -102,7 +102,7 @@ function Chat() {
                 onKeyDown={handleKeyDown}
                 placeholder={`Message ${config.siteName}`}
                 rows={2}
-                className="w-full resize-none rounded-xl bg-neutral-900 text-neutral-200 placeholder:text-neutral-500 focus:outline-none"
+                className="w-full resize-none rounded-xl bg-neutral-900 text-neutral-200 px-2 py-1 placeholder:text-neutral-500 focus:outline-none"
               />
               <div className="mt-3 flex items-center justify-between">
                 <div className="flex gap-2">
