@@ -6,7 +6,7 @@ function Sidebar({ conversations, currentId, onSelect, onNew }) {
   return (
     <aside className="w-72 shrink-0 bg-neutral-950 text-neutral-200 flex flex-col border-r border-neutral-800">
       <div className="px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-0">
           <img src={config.logo} className="size-10 rounded-lg" />
           <div className="text-sm font-semibold tracking-wide">{config.siteCoName}</div>
         </div>

@@ -76,11 +76,25 @@ function Chat() {
 
   function TypingDots() {
     return (
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-1 py-1.5">
         <span className="typing-dot" />
         <span className="typing-dot" />
         <span className="typing-dot" />
       </div>
+    );
+  }
+
+  function AvatarAssistant() {
+    return (
+      <div className="size-6 rounded-full bg-gray-700/20 grid place-items-center text-white text-xs font-semibold">
+        <img src={config.logo} className="size-5"/>
+      </div>
+    );
+  }
+
+  function AvatarUser() {
+    return (
+      <div className="h-8 w-8 rounded-full bg-neutral-700 grid place-items-center text-white text-xs font-semibold">You</div>
     );
   }
 
@@ -121,10 +135,12 @@ function Chat() {
         <>
           <div ref={listRef} className="flex-1 overflow-y-auto px-6 py-6 space-y-4 bg-gradient-to-b from-neutral-950 to-neutral-900">
             {current.messages.map((m) => (
-              <div key={m.id} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
+              <div key={m.id} className={`flex items-start gap-3 ${m.role === "user" ? "justify-end" : "justify-start"}`}>
+                {m.role !== "user" && <AvatarAssistant />}
                 <div className={`max-w-[75%] rounded-2xl px-4 py-2 text-sm whitespace-pre-wrap break-words shadow ${m.role === "user" ? "bg-blue-600 text-white" : "bg-neutral-800 text-neutral-200 border border-neutral-700"}`}>
                   {m.content ? m.content : (isStreaming && m.role === "assistant" ? <TypingDots /> : null)}
                 </div>
+                {m.role === "user" && <AvatarUser />}
               </div>
             ))}
           </div>
