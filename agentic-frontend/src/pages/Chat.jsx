@@ -3,6 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import {IoIosSend} from "react-icons/io";
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 function Chat() {
   const { current, updateCurrent } = useOutletContext();
   const [input, setInput] = useState("");
@@ -31,7 +33,7 @@ function Chat() {
 
   const streamReply = (prompt, assistantId) => {
     setIsStreaming(true);
-    const url = new URL("http://localhost:5000/api/llama/stream");
+    const url = new URL(`${API_BASE_URL}/api/llama/stream`);
     url.searchParams.set("prompt", prompt);
     url.searchParams.set("sessionId", String(current.id));
     const es = new EventSource(url.toString());

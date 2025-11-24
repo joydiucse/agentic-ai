@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413797df-171a-4ae1-9b74-a3f82f73d851" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/agentic-backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agentic-frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agentic-frontend/src/services/ApiService.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agentic-backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentic-frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agentic-frontend/src/pages/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/agentic-frontend/src/pages/Chat.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +46,9 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "sesion-manage",
+    "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/webServer/agentic-ai-by-models/agentic-frontend/src",
+    "last_opened_file_path": "D:/webServer/agentic-ai-by-models/agentic-backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +70,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webServer\agentic-ai-by-models\agentic-backend" />
       <recent name="D:\webServer\agentic-ai-by-models\agentic-frontend\src" />
     </key>
   </component>
@@ -83,6 +92,9 @@
       <workItem from="1763286176148" duration="2101000" />
       <workItem from="1763291023885" duration="2103000" />
       <workItem from="1763361788843" duration="1898000" />
+      <workItem from="1763379017372" duration="754000" />
+      <workItem from="1763884902432" duration="294000" />
+      <workItem from="1763956854639" duration="2183000" />
     </task>
     <servers />
   </component>

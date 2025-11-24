@@ -2,9 +2,10 @@
 import express from "express";
 import cors from "cors";
 import ollama from "ollama";
-
+import dotenv from "dotenv";
+dotenv.config();
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 3100;
 const sessions = new Map();
 
 // Middleware
