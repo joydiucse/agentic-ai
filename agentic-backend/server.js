@@ -110,6 +110,10 @@ app.get("/api/llama/stream", async (req, res) => {
     }
 });
 
+app.get("/", (req, res) => {
+    res.status(200).json({status: "success", message: "Welcome to chat-api.joynal.me",});
+})
+
 // Start the server
 app.listen(port, () => {
     console.log(`Ollama API server running at http://localhost:${port}`);
